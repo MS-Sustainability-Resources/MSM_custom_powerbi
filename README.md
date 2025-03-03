@@ -10,20 +10,21 @@ add custom ones to meet specific reporting needs.
 
 ## Steps to use Power BI dataset 
 
+Download the CAPS_MSM_Dataset.pbix from this repo.
+
 ### Prerequisites to Connect Dataverse to Synapse workspace
 
-<https://learn.microsoft.com/en-us/power-apps/maker/data-platform/azure-synapse-link-synapse#prerequisites>
+
+[Follow prerequisites documentation to create and Azure Synapse link](<https://learn.microsoft.com/en-us/power-apps/maker/data-platform/azure-synapse-link-synapse#prerequisites>)
 
 1. Create ADLS Gen2 Storage account with hierarchical namespace
-2. Create Synapse Workspace
-    (<https://learn.microsoft.com/en-us/azure/synapse-analytics/get-started-create-workspace>
-    )
+2. [Create Synapse Workspace](<https://learn.microsoft.com/en-us/azure/synapse-analytics/get-started-create-workspace>)
 
 ### Connect Dataverse to Synapse workspace 
 
-<https://learn.microsoft.com/en-us/power-apps/maker/data-platform/azure-synapse-link-synapse#connect-dataverse-to-synapse-workspace>
+[Connect Dataverse to Synapse workspace documentation](<https://learn.microsoft.com/en-us/power-apps/maker/data-platform/azure-synapse-link-synapse#connect-dataverse-to-synapse-workspace>)
 
-Navigate to make-powerapps.com and select Azure Synapse link on the left
+Navigate to https://make.powerapps.com and select Azure Synapse link on the left
 menu
 
 Setup a new synapse link with **Azure Synapse Analytics workspace**
@@ -107,12 +108,12 @@ Water sample | msdyn_watersamplev2
 Water source | msdyn_watersource
  |   
 
-You can copy the Synapse Workspace name by opening it on Azure portal:\
+You can copy the Synapse Workspace name by opening it on [Azure portal](<https://portal.azure.com>):\
 ![](./screenshots/image4.png)
 
-And open the Synapse Studio to copy the data lake name as well.
+And open the **Synapse Studio** to copy the data lake name as well.
 
-Power BI setup
+### Power BI setup
 
 1. Power BI prerequisites
 
@@ -121,7 +122,7 @@ Power BI setup
 > features\
 > ![](./screenshots/image5.png)
 
-    The privacy level has to be changed as well to load the data.\
+The privacy level has to be changed as well to load the data.\
 \
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./screenshots/image6.png)
