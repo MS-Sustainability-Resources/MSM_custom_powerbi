@@ -146,4 +146,4 @@ incorrect.](./screenshots/image6.png)
 > ![A screenshot of a computer AI-generated content may be
 > incorrect.](./screenshots/image9.png)
 
-a.  Save, Close & Apply and load data into Power BI
+    b. Save, Close & Apply and load data into Power BI
